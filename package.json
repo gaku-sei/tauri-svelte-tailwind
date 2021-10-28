@@ -1,0 +1,33 @@
+{
+  "name": "tauri-svelte-tailwind",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --port 5000",
+    "start": "sirv public --no-clear",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "tauri": "tauri",
+    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tauri-apps/cli": "^1.0.0-beta.10",
+    "@tsconfig/svelte": "^2.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "svelte": "^3.0.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tailwindcss": "^2.2.17",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0",
+    "vite": "^2.6.13"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.0-beta.8",
+    "sirv-cli": "^1.0.0"
+  }
+}

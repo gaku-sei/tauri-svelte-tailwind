@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "matklad.rust-analyzer",
+    "svelte.svelte-vscode",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode"
+  ]
+}
